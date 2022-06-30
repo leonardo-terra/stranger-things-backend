@@ -1,12 +1,11 @@
 'use strict';
-
 const flipout = require('flipout');
 
 class StrangerThingsService {
   constructor(repository) {
     this.repository = repository;
   }
-//s
+  //xs
   search({ page, size, ...params }, upsideDownMode) {
     const characters = this.repository.search(params, { page, size });
 
